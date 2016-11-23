@@ -1,15 +1,61 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
    body {
-       padding-top: 20px;
-       padding-bottom: 20px;
+       padding-top: 0;
+       padding-bottom: 30px;
+       margin: 0 auto 0 auto;
+       border: none;
        background-color: #000;
        color: #fff;
+       font-family: Arial, sans-serif;
    }
-   .btn-padded {
-       padding: 3em;
-       font-size: 200%;
+   .page-header {
+     border: none;
+     margin: 20px auto 30px auto;
+   }
+   h1 {
+       text-align: center;
+       font-size: 50px;
+       font-weight: normal;
+       margin: 0 auto 0 auto;
+       padding: 0;
+   }
+   .large-button-container {
+     width: 80%;
+     margin: 0 auto 0 auto;
+   }
+   .small-button-container {
+     width: 90%;
+     margin: 0 5% 0 5%;
+   }
+   .col-xs-10 .btn {
+       border-radius: 0;
+       padding: 5px;
+       text-shadow: 1px 2px #000;
+       background-color: #2791cb;
+       color: #fff;
+       margin 0 auto 0 auto;
+   }
+   .col-md-6 .btn {
+       border-radius: 0;
+       padding: 2em 5px 2em 5px;
+       font-size: 28px;
+       text-shadow: 1px 2px #000;
+       background-color: #2791cb;
+       color: #fff;
+       margin: 0 auto 50px auto;
+       height: 200px;
+       width: 90%;
+   }
+   .col-md-4 .btn {
+       border-radius: 0;
+       padding: 10px 10px 10px 10px;
+       font-size: 28px;
+       text-shadow: 1px 2px #000;
+       background-color: #2791cb;
+       color: #fff;
+       margin: 0 auto 0 auto;
+       height: 150px;
+       width: 90%;
    }
